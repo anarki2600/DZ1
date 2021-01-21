@@ -9,7 +9,7 @@ namespace DZ1
     {
         static void Main(string[] args)
         {
-            string pattern = @"^[\p{L}]+$";
+            string pattern = @"^[\p{L}]+$";//проверяем, что ввели буквы
             while (true)
             {
                 Console.WriteLine("Введите Ваше имя, пожалуйста");
